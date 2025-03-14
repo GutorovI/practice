@@ -37,3 +37,13 @@
     position: absolute;
     overflow: hidden;
   }
+
+  .card {
+    width: 1920px;
+    height: 1080px;
+    margin: auto;
+    background-image: url("../bg 01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
