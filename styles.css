@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../Inter_Regular.ttf") format("ttf");
+    font-display: swap;
+  }
+  
+  *, :before, :after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #ffffff;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  
+  img {
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .visually-hidden {
+    clip: rect(0 0 0 0);
+    border: 0;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    position: absolute;
+    overflow: hidden;
+  }
